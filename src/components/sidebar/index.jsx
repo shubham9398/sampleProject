@@ -46,6 +46,14 @@ function Sidebar(props) {
                         <ListItemText primary="Workouts" />
                     </ListItem>
                 </Link>
+                <Link to={`${"meals"}`}>
+                    <ListItem button>
+                        <ListItemIcon>
+                            <EventNoteIcon />
+                        </ListItemIcon>
+                        <ListItemText primary="Meals" />
+                    </ListItem>
+                </Link>
             </List>
             <Divider />
             <List>
